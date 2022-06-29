@@ -1,0 +1,28 @@
+1. O que são métodos HTTP? 
+Quando fazemos requisições navegando na WEB, especificamos o que chamamos de método HTTP ou verbo. Na versão 1.1 do protocolo HTTP(que é a que todos usamos atualmente) temos 9 verbos diferentes. 
+A requisição devolve uma resposta em um formato específico ou realiza uma ação de acordo com o que pedirmos para ele fazer.
+2. Quais são os métodos HTTP mais utilizados atualmente? 
+O protocolo HTTP define oito métodos (GET, HEAD, POST, PUT, DELETE, TRACE, OPTIONS e CONNECT) que indicam a ação a ser realizada no recurso especificado.
+3. Quais são os 2 principais métodos HTTP. Qual é a diferença entre eles? 
+Os métodos GET e POST são os que aparecem mais comumente durante o desenvolvimento web. O método GET solicita a representação de um recurso específico. 
+Requisições utilizando o método GET devem retornar apenas dados. Um exemplo se método GET é a consulta a um registro no Banco de dados. 
+O método POST é utilizado para submeter uma entidade a um recurso específico para o servidor, como por exemplo a inserção de um novo registro no Banco de Dados.
+4. O que são requisições HTTP. Quais tipos? 
+Requisições HTTP são o pedido que um cliente realiza a nosso servidor. Esse pedido contém uma série de dados que são usados para descrever exatamente o que o cliente precisa.
+5. Como funciona uma requisição?
+O cliente(navegador) envia uma requisição HTTP ao servidor, e o servidor envia uma resposta ao cliente.
+6. O que é método GET? O método GET requisita uma representação do recurso especificado. Requisições usando GET devem apenas recuperar dados e não devem ter qualquer outro efeito.
+7. Qual é o protocolo de internet para transferência segura, com uso de certificado digital, utilizado em sites de compras eletrônicas?
+O HTTPS é uma implementação do protocolo HTTP sobre uma camada adicional de segurança que utiliza o protocolo SSL/TLS. Essa camada adicional permite que os dados sejam transmitidos por meio de uma conexão criptografada e que se verifique a autenticidade do servidor e do cliente por meio de certificados digitais. 
+A porta TCP usada por norma para o protocolo HTTPS é a 443.8. Quais os principais métodos de uma requisição REST?
+REST é uma maneira simples de organizar interações em sistemas independentes. o REST permitir a interação com diversos clientes sem stress, tanto em dispositivos móveis quanto qualquer outro website/serviço.
+9. Qual é a diferença entre IPv4 e IPv6?
+O IPv4, tem um limite de combinações de endereços de 4 bilhões. o IPv6 é a versão 6 do Protocolo de Internet, com endereços no padrão 128 bits, permitindo, portanto, cerca de 340 undecilhões de endereços.
+10. Faça um resumo sobre os seguintes protocolos: http, tcp, ip, udp, smtp e ftp.
+O Hypertext Transfer Protocol (HTTP) é um protocolo de comunicação utilizado para sistemas de informação de hipermídia, distribuídos e colaborativos. Ela é a base para comunicação de dados da World Wide Web.
+O protocolo HTTP faz a comunicação entre o cliente e o servidor por meio de mensagens. O cliente envia uma mensagem de requisição de um recurso e o servidor envia uma mensagem de resposta ao cliente com a solicitação.
+SMTP é o protocolo padrão para envio de e-mails através da Internet. É um protocolo relativamente simples, baseado em texto simples, onde um ou vários destinatários de uma mensagem são especificados (e, na maioria dos casos, validados) sendo, depois, a mensagem transferida.
+O aplicativo FTP foi um dos primeiros aplicativos desenvolvidos para uso no que hoje chamamos de internet. Surgiu para permitir a troca de arquivos entre computadores ligados em rede. O protocolo FTP suporta este aplicativo. O protocolo FTP permite a troca de arquivos nos formatos ASCII e binário.
+O TCP (acrônimo para o inglês Transmission Control Protocol, que significa "Protocolo de controle de transmissão") é um dos protocolos sob os quais assenta o núcleo da Internet. A versatilidade e robustez deste protocolo tornou-o adequado a redes globais, já que este verifica se os dados são enviados de forma correta, na sequência apropriada e sem erros, pela rede.
+O User Datagram Protocol(UDP) é um protocolo simples da camada de transporte. O protocolo UDP não é confiável. É um serviço sem conexão, pois não há necessidade de manter um relacionamento longo entre cliente e o servidor.
+Endereço IP, de forma genérica, é uma identificação de um dispositivo (computador, impressora, etc) em uma rede local ou pública. Cada computador na internet possui um IP (Internet Protocol ou Protocolo de internet) único, que é o meio em que as máquinas usam para se comunicarem na Internet. Endereços de domínio são convertidos em endereço IP.
